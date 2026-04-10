@@ -172,19 +172,30 @@
 // }
 
 // import MeshDepthMaterialScene from "@/components/Materials/MeshDepthMaterialScene";
-// import MeshPhysicalMaterialScene from "@/components/Materials/MeshPhysicalMaterialScene";
+// import MeshPhysicalMaterialScene from "@/components/Materials/MeshPhysicalMaterialScene"; //not perfect....
 
 // export default function Page() {
 //   return (
 //     <>
-//       <MeshDepthMaterialScene />
-//       {/* <MeshPhysicalMaterialScene /> */}
+//       {/* <MeshDepthMaterialScene /> */}
+//       <MeshPhysicalMaterialScene />
 //     </>
 //   );
 // }
 
-import ScrollDoorThreeScene from "@/components/ScrollDoorThreeScene";
+// import ScrollDoorThreeScene from "@/components/ScrollDoorThreeScene";
 
-export default function Page() {
-  return <ScrollDoorThreeScene />;
+// export default function Page() {
+//   return <ScrollDoorThreeScene />;
+// }
+
+import Light from "@/components/light";
+import Dmodel from "@/components/3Dmodel";
+export default function Page () {
+  return (
+  <>
+    {/* <Light />; */}
+    <Dmodel />;
+  </>
+  );
 }
