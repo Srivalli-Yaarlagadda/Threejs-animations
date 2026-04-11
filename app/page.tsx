@@ -189,13 +189,19 @@
 //   return <ScrollDoorThreeScene />;
 // }
 
-import Light from "@/components/light";
-import Dmodel from "@/components/3Dmodel";
-export default function Page () {
-  return (
-  <>
-    {/* <Light />; */}
-    <Dmodel />;
-  </>
-  );
+// import Light from "@/components/light";
+// import Dmodel from "@/components/3Dmodel";
+// export default function Page () {
+//   return (
+//   <>
+//     {/* <Light />; */}
+//     <Dmodel />;
+//   </>
+//   );
+// }
+
+import Tree from "@/components/tree3D";
+
+export default function Page() {
+  return <Tree />;
 }
